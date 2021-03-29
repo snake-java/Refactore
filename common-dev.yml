@@ -1,0 +1,16 @@
+## QQ邮箱配置
+spring:
+  application:
+    name: spring-cloud-work-email
+  mail:
+    host: smtp.126.com
+    username: sutao3881@126.com
+    password: NGHKDLEHXTHTYXAJ
+    from: sutao3881@126.com
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+          enable: true
+          required: true
